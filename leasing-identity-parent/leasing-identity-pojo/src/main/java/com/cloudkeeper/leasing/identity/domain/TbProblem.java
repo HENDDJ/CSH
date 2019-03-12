@@ -13,6 +13,7 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Table;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 /**
  * 问题定位
@@ -54,7 +55,7 @@ public class TbProblem extends BaseEntity {
 
     @ApiModelProperty(value = "submissionTime", position = 10, required = true)
     @Column(length = 60)
-    private LocalDate submissionTime;
+    private LocalDateTime submissionTime;
 
     @ApiModelProperty(value = "submitter", position = 10, required = true)
     @Column(length = 60)

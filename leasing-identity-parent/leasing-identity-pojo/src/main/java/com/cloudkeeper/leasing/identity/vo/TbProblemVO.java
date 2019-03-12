@@ -50,7 +50,7 @@ public class TbProblemVO extends BaseVO {
     private String yloc;
 
     @ApiModelProperty(value = "submissionTime", position = 10, required = true)
-    private LocalDate submissionTime;
+    private LocalDateTime submissionTime;
 
     @ApiModelProperty(value = "submitter", position = 10, required = true)
     private String submitter;
