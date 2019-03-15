@@ -53,4 +53,17 @@ public class TbSensorSearchable extends BaseSearchable {
     @ApiModelProperty(value = "yloc", position = 10, required = true)
     private String yloc;
 
+    @ApiModelProperty(value = "temperature", position = 10, required = true)
+    private String temperature;
+
+    @ApiModelProperty(value = "humidity", position = 10, required = true)
+    private String humidity;
+
+    @ApiModelProperty(value = "waterLevel", position = 10, required = true)
+    private String waterLevel;
+
+    @ApiModelProperty(value = "windPower", position = 10, required = true)
+    private String windPower;
+
+
 }

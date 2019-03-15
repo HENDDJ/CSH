@@ -56,4 +56,20 @@ public class TbSensor extends BaseEntity {
     @Column(length = 60)
     private String yloc;
 
+    @ApiModelProperty(value = "temperature", position = 10, required = true)
+    @Column(length = 60)
+    private String temperature;
+
+    @ApiModelProperty(value = "humidity", position = 10, required = true)
+    @Column(length = 60)
+    private String humidity;
+
+    @ApiModelProperty(value = "waterlevel", position = 10, required = true)
+    @Column(length = 60)
+    private String waterLevel;
+
+    @ApiModelProperty(value = "windpower", position = 10, required = true)
+    @Column(length = 60)
+    private String windPower;
+
 }
